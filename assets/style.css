@@ -1,0 +1,243 @@
+:root {
+    --app--primary--color: #CF3B79;
+    --app--secondary--color: white;
+    --app--solid--color: #068886;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {  
+
+    font-family: 'Lemon', serif;
+    padding: 0;
+    margin: 0 auto;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-seamless-pattern-background-with-artistic-style_7505-1600.jpg");
+}
+
+.webapp {
+    background-color: var(--app--secondary--color);
+}
+
+header {
+    background-color: var(--app--primary--color);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menulist {
+    justify-content: end;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.menu-list a:hover {
+    color: var(--app--primary--color);
+    background-color: var(--app--secondary--color);
+    border-radius: 10px;
+}
+
+.navbar-brand  img {
+    height: 50px;
+    padding: 2px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--app--secondary--color);
+}
+
+.navbar-brand:hover {
+    color: #BED4FC;
+}
+
+.hero-img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-img:hover {
+    transform: scale(1.05);
+}
+
+.hero-txt {
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-txt span {
+    color: var(--app--primary--color);
+    font-style: italic;
+    font-weight: 700;
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    color: var(--app--primary--color);
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+.gobtn {
+    transition: transform 0.3s ease-in-out;
+    background-color: #068886;
+    color: var(--app--secondary--color);
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: #000000 0px 5px 5px 0px;
+}
+
+.gobtn:hover {
+    transform: scale(1.05);
+    background-color: var(--app--primary--color);
+    color: var(--app--secondary--color);
+}
+
+#ageInput {
+    justify-content: center;
+    /* background-image: url("https://img.freepik.com/free-vector/red-haired-man-different-age_74855-5924.jpg"); */
+
+    background-color: #068886;
+}
+
+
+#ageInput input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ageInput label {
+    margin-top: 60px!important;
+    color: var(--app--primary--color);
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    background-color: var(--app--secondary--color);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#ageInput button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--app--primary--color);
+    color: var(--app--secondary--color);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 60px !important;
+    margin-top: 10px;
+}
+
+#ageInput button:hover {
+    background-color: var(--app--secondary--color);
+    color: var(--app--solid--color);
+}
+
+#ageResult img {
+    width: 100px;
+    height: 100px;
+}
+
+#resultTitle {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#contact input, #message {
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+#contactbtn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--app--primary--color);
+    color: var(--app--secondary--color);
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#contactbtn:hover {
+    background-color: var(--app--secondary--color);
+    color: var(--app--solid--color);
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: var(--app--secondary--color);
+    background-color: var(--app--primary--color);
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+.footer-menu  {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-align: start;
+}
+
+.footer-menu  a:hover {
+    color: black;
+}
+
+.footer-menu  a {
+    display: inline;
+}
+
+.copyright {
+    padding: 5px;
+    border-top: #FBCA64 1px solid;
+    color: var(--app--secondary--color);
+    background-color: var(--app--primary--color);
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+
+.card:hover {
+    box-shadow: #068886 0px 5px 5px 0px;
+    transform: scale(1.05);
+}
+
